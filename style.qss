@@ -1,0 +1,100 @@
+QMainWindow {
+    background-color: #faf1e1;
+}
+
+QLabel {
+    color: #f46b60;
+    font: bold 12px;
+}
+
+QPushButton#Reset, #Util{
+    color: #f46b60;
+    background-color: #a5ddd7;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #90c1bc;
+    font: bold 12px;
+    padding: 6px;
+}
+
+QPushButton#Sym{
+    color: #f46b60;
+    background-color: #a5ddd7;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #90c1bc;
+    font: bold 17px;
+    padding: 6px;
+}
+
+QPushButton {
+    color: #f46b60;
+    background-color: #FBF4E8;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #90c1bc;
+}
+
+QPushButton#Reset:pressed, QPushButton#Reset:on, QPushButton#Sym:pressed, QPushButton#Sym:on {
+    background: #90c1bc;
+}
+
+QComboBox {
+    color: #fcf6ec;
+    font: bold 12px;
+    background-color: #f46b60;
+    selection-background-color: #d65e54;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #90c1bc;
+    min-width: 10em;
+    max-width: 13em;
+    padding: 6px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 24px;
+
+    border-top-right-radius: 10px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 10px;
+}
+
+/*
+QComboBox::down-arrow {
+    image: url(./img/arrow.jpeg);
+    width: 13px;
+}
+*/
+
+QComboBox QAbstractItemView {
+    border: 2px solid #f46b60;
+    background-color: #f46b60;
+}
+
+QLineEdit {
+    color: #f46b60;
+    font: bold 12px;
+    background-color: #FBF4E8;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #90c1bc;
+    padding: 6px;
+    selection-background-color: #90c1bc;
+}
+
+QTextEdit {
+    color: #90c1bc;
+    font: 12px;
+    background-color: #FBF4E8;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #90c1bc;
+    padding: 6px;
+    selection-background-color: #90c1bc;
+}
+
